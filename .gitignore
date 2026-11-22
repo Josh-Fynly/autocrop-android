@@ -1,0 +1,33 @@
+
+# Gradle
+.gradle/
+.gradle-cache/
+build/
+**/build/
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+out/
+
+# Local Android SDK configuration
+local.properties
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and local secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Crash and profiling output
+captures/
+*.hprof
